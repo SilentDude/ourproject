@@ -1,0 +1,1367 @@
+﻿Log file open, 05/14/17 15:45:05
+LogInit:Display: Running engine for game: GTAsims
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1442821933) SRandInit(1442821933).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.068782
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: E:/Programy/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.14-13.45.06:872][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.14-13.45.06:872][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.14-13.45.06:879][  0]LogInit: Computer: DESKTOP-PP2ONDK
+[2017.05.14-13.45.06:879][  0]LogInit: User: Sebastian
+[2017.05.14-13.45.06:879][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.14-13.45.06:879][  0]LogInit: High frequency timer resolution =3.416975 MHz
+[2017.05.14-13.45.06:880][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.14-13.45.06:880][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.14-13.45.06:880][  0]LogMemory: Process Physical Memory: 263.10 MB used, 263.10 MB peak
+[2017.05.14-13.45.06:880][  0]LogMemory: Process Virtual Memory: 262.23 MB used, 262.23 MB peak
+[2017.05.14-13.45.06:880][  0]LogMemory: Physical Memory: 4200.19 MB used,  3911.26 MB free, 8111.45 MB total
+[2017.05.14-13.45.06:880][  0]LogMemory: Virtual Memory: 644.10 MB used,  3911.26 MB free, 134217728.00 MB total
+[2017.05.14-13.45.06:941][  0]LogTextLocalizationManager: No translations for ('pl-PL') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.14-13.45.07:543][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.14-13.45.07:556][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.05.14-13.45.07:556][  0]LogD3D11RHI:       4073/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
+[2017.05.14-13.45.07:557][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.14-13.45.07:557][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.14-13.45.07:558][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.14-13.45.07:561][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.14-13.45.07:561][  0]LogD3D11RHI:     GPU DeviceId: 0x67b0 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.14-13.45.07:561][  0]LogWindows: EnumDisplayDevices:
+[2017.05.14-13.45.07:561][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.05.14-13.45.07:561][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.05.14-13.45.07:562][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.05.14-13.45.07:562][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.05.14-13.45.07:562][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.05.14-13.45.07:562][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.05.14-13.45.07:562][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.05.14-13.45.07:562][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.05.14-13.45.07:562][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.4.3 (internal:22.19.157.3, unified:22.19.157.3)
+[2017.05.14-13.45.07:562][  0]LogD3D11RHI:      Driver Date: 4-10-2017
+[2017.05.14-13.45.07:562][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.14-13.45.07:601][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.14-13.45.07:611][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.05.14-13.45.07:612][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Projekty/GTAsims/GTAsims 4.15/Intermediate/Shaders/WorkingDirectory/7908/).
+[2017.05.14-13.45.07:612][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sebastian/AppData/Local/Temp/UnrealShaderWorkingDir/E09C842041AA6555AD9FA3BFC44006D2/'.
+[2017.05.14-13.45.07:612][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.14-13.45.08:677][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.14-13.45.08:722][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.14-13.45.08:765][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.14-13.45.08:810][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.14-13.45.08:852][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.14-13.45.08:896][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.14-13.45.08:940][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.14-13.45.08:985][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.14-13.45.09:020][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.14-13.45.09:062][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.14-13.45.09:106][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.14-13.45.09:148][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.14-13.45.09:193][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.14-13.45.09:236][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.14-13.45.09:280][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.14-13.45.09:370][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.14-13.45.09:370][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.14-13.45.09:401][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.14-13.45.09:480][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.14-13.45.09:507][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.14-13.45.09:551][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.14-13.45.09:596][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.14-13.45.09:639][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.14-13.45.09:682][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.14-13.45.09:682][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.14-13.45.09:993][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.14-13.45.10:048][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.14-13.45.10:048][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sebastian/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.14-13.45.10:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projekty/GTAsims/GTAsims 4.15/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.14-13.45.10:048][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.14-13.45.10:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projekty/GTAsims/GTAsims 4.15/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.14-13.45.10:048][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.14-13.45.10:063][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.14-13.45.10:077][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sebastian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.14-13.45.10:085][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.14-13.45.10:086][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.14-13.45.10:086][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.14-13.45.10:306][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.14-13.45.10:308][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.14-13.45.10:470][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.14-13.45.10:503][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.14-13.45.10:537][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.14-13.45.10:537][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.14-13.45.10:537][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.14-13.45.11:041][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: gtasims, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2051297096
+[2017.05.14-13.45.11:079][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2017.05.14-13.45.11:109][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.015887 seconds
+[2017.05.14-13.45.11:114][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.14-13.45.11:114][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.14-13.45.11:114][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.14-13.45.11:155][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.14-13.45.12:386][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.14-13.45.12:416][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.14-13.45.12:776][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.14-13.45.13:073][  0]SourceControl: Info Source control is disabled
+[2017.05.14-13.45.13:073][  0]SourceControl: Info Source control is disabled
+[2017.05.14-13.45.13:108][  0]SourceControl: Info Source control is disabled
+[2017.05.14-13.45.13:141][  0]SourceControl: Info Source control is disabled
+[2017.05.14-13.45.14:062][  0]LogEngine: Initializing Engine...
+[2017.05.14-13.45.14:063][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.14-13.45.14:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.14-13.45.14:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.14-13.45.14:251][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.14-13.45.14:258][  0]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.14-13.45.14:269][  0]LogInit: FAudioDevice initialized.
+[2017.05.14-13.45.14:302][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.14-13.45.14:311][  0]LogInit: Texture streaming: Enabled
+[2017.05.14-13.45.14:376][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.14-13.45.14:443][  0]LogInit: Transaction tracking system initialized
+[2017.05.14-13.45.14:699][  0]BlueprintLog: New page: Editor Load
+[2017.05.14-13.45.15:354][  0]LocalizationService: Info Localization service is disabled
+[2017.05.14-13.45.15:861][  0]LogConsoleResponse:Display: 
+[2017.05.14-13.45.15:959][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.14-13.45.15:959][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.14-13.45.16:711][  0]LogFileCache: Scanning file cache for directory 'E:/Projekty/GTAsims/GTAsims 4.15/Content/' took 0.01s
+[2017.05.14-13.45.16:711][  0]SourceControl: Info Source control is disabled
+[2017.05.14-13.45.16:711][  0]Cmd: MAP LOAD FILE="../../../../../../Projekty/GTAsims/GTAsims 4.15/Content/LV1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.14-13.45.16:711][  0]LightingResults: New page: Lighting Build
+[2017.05.14-13.45.16:740][  0]MapCheck: New page: Map Check
+[2017.05.14-13.45.16:740][  0]LightingResults: New page: Lighting Build
+[2017.05.14-13.45.16:916][  0]LogAIModule: Creating AISystem for world LV1
+[2017.05.14-13.45.16:936][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.14-13.45.16:937][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.14-13.45.16:963][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.327ms to complete.
+[2017.05.14-13.45.16:963][  0]LogFileHelpers: Loading map 'LV1' took 0.253
+[2017.05.14-13.45.17:189][  0]LogCollectionManager: Loaded 0 collections in 0.000901 seconds
+[2017.05.14-13.45.17:281][  0]LogFileCache: Scanning file cache for directory 'E:/Projekty/GTAsims/GTAsims 4.15/Saved/Collections/' took 0.01s
+[2017.05.14-13.45.17:281][  0]LogFileCache: Scanning file cache for directory 'E:/Projekty/GTAsims/GTAsims 4.15/Content/Developers/Sebastian/Collections/' took 0.01s
+[2017.05.14-13.45.17:281][  0]LogFileCache: Scanning file cache for directory 'E:/Projekty/GTAsims/GTAsims 4.15/Content/Collections/' took 0.01s
+[2017.05.14-13.45.17:281][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.14-13.45.17:289][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2245 classes and 453 folders.
+[2017.05.14-13.45.17:337][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.14-13.45.17:370][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.14-13.45.17:404][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.14-13.45.17:442][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.14-13.45.17:446][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.14-13.45.17:499][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.14-13.45.17:499][  0]LogLoad: (Engine Initialization) Total time: 12.42 seconds
+[2017.05.14-13.45.17:499][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.05.14-13.45.17:499][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.14-13.45.17:517][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.14-13.45.17:517][  0]LogOcInput: OculusInput pre-init called
+[2017.05.14-13.45.17:533][  0]LogAssetRegistry: Asset discovery search completed in 6.4753 seconds
+[2017.05.14-13.45.17:533][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.05.14-13.45.17:533][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2017.05.14-13.45.17:538][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.14-13.45.17:546][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.14-13.45.17:550][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.14-13.45.17:554][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.14-13.45.17:672][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.14-13.45.17:715][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.14-13.45.18:541][ 60]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.14-13.46.45:043][251]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.14-13.46.45:052][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.14-13.46.45:052][251]PIE: New page: PIE session: LV1 (May 14, 2017, 5:46:45 PM)
+[2017.05.14-13.46.45:053][251]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.05.14-13.46.45:057][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004150s)
+[2017.05.14-13.46.45:057][251]LogAIModule: Creating AISystem for world LV1
+[2017.05.14-13.46.45:057][251]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2017.05.14-13.46.45:058][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005023s)
+[2017.05.14-13.46.45:072][251]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.14-13.46.45:079][251]LogInit: FAudioDevice initialized.
+[2017.05.14-13.46.45:218][251]LogLoad: Game class is 'MyGamemode_C'
+[2017.05.14-13.46.45:220][251]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.05.14-15.46.45
+[2017.05.14-13.46.45:220][251]LogWorld: Bringing up level for play took: 0.000811
+[2017.05.14-13.46.45:221][251]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.05.14-13.46.45:250][251]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.05.14-13.46.45:250][251]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.14-13.46.45:250][251]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.14-13.46.45:250][251]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.14-13.46.45:252][251]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.14-13.46.45:252][251]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 0.894
+[2017.05.14-13.46.52:377][691]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:394][692]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:410][693]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:427][694]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:444][695]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:460][696]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:477][697]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:494][698]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:510][699]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:527][700]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:544][701]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:560][702]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:577][703]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:594][704]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:610][705]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:627][706]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:644][707]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:661][708]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:677][709]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:694][710]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:711][711]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:728][712]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:744][713]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:761][714]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:777][715]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:794][716]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:811][717]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:827][718]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:844][719]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:861][720]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:877][721]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:893][722]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:911][723]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:927][724]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:944][725]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:960][726]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:977][727]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.52:994][728]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:010][729]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:027][730]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:043][731]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:061][732]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:077][733]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:094][734]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:110][735]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:127][736]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:144][737]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:160][738]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:177][739]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:194][740]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:210][741]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:227][742]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:243][743]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:261][744]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:277][745]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:294][746]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:310][747]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:327][748]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:344][749]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:360][750]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:377][751]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:394][752]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:410][753]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:427][754]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:444][755]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:460][756]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:477][757]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:494][758]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:510][759]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:527][760]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:544][761]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:561][762]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:577][763]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:594][764]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:611][765]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:627][766]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:644][767]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:661][768]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:678][769]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:695][770]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:711][771]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:728][772]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:744][773]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:761][774]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:777][775]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:794][776]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:810][777]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:827][778]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:844][779]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:860][780]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:877][781]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:894][782]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:911][783]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:927][784]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:944][785]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:960][786]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:977][787]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.53:994][788]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:010][789]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:027][790]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:044][791]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:060][792]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:077][793]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:094][794]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:110][795]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:127][796]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:144][797]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:160][798]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:177][799]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:194][800]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:210][801]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:227][802]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:244][803]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:260][804]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:277][805]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:294][806]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:310][807]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:327][808]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:344][809]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:360][810]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:377][811]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:394][812]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:410][813]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:427][814]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:444][815]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:461][816]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:477][817]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:494][818]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:511][819]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:528][820]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:545][821]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:561][822]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:578][823]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:594][824]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:611][825]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:628][826]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:644][827]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:661][828]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:677][829]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:694][830]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:710][831]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:727][832]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:744][833]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:760][834]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:777][835]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:794][836]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:810][837]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:827][838]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:844][839]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:861][840]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:877][841]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:894][842]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:910][843]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:927][844]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:944][845]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:960][846]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:977][847]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.54:994][848]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:010][849]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:027][850]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:044][851]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:060][852]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:077][853]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:094][854]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:111][855]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:127][856]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:144][857]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:161][858]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:177][859]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:194][860]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:210][861]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:227][862]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:244][863]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:261][864]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:277][865]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:294][866]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:310][867]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:327][868]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:344][869]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:361][870]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:377][871]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:393][872]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:410][873]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:427][874]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:444][875]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:461][876]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:477][877]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:494][878]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:511][879]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:527][880]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:544][881]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:561][882]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:577][883]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:594][884]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:610][885]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:627][886]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:644][887]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:661][888]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:677][889]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:694][890]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:710][891]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:727][892]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:744][893]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:760][894]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:777][895]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:794][896]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:811][897]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:827][898]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:844][899]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:861][900]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:877][901]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:894][902]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:910][903]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:927][904]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:944][905]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:960][906]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:977][907]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.55:994][908]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:010][909]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:027][910]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:044][911]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:061][912]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:077][913]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:094][914]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:110][915]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:127][916]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:144][917]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:161][918]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:177][919]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:194][920]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:211][921]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:227][922]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:244][923]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:261][924]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:277][925]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:294][926]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:311][927]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:327][928]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:344][929]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:360][930]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:377][931]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:394][932]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:411][933]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:427][934]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:444][935]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:460][936]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:477][937]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:494][938]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:510][939]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:527][940]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:544][941]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:560][942]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:577][943]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:594][944]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:610][945]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:627][946]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:644][947]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:660][948]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:677][949]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:694][950]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:710][951]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:727][952]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:744][953]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:761][954]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:777][955]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:794][956]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:810][957]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:827][958]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:844][959]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:861][960]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:877][961]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:894][962]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:911][963]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:927][964]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:944][965]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:960][966]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:977][967]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.56:994][968]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:010][969]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:027][970]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:044][971]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:060][972]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:077][973]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:094][974]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:110][975]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:127][976]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:144][977]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:160][978]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:177][979]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:194][980]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:210][981]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:227][982]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:244][983]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:261][984]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:277][985]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:294][986]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:311][987]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:327][988]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:344][989]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:361][990]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:377][991]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:394][992]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:411][993]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:428][994]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:444][995]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:461][996]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:477][997]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:494][998]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:511][999]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:527][  0]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:544][  1]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:561][  2]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:577][  3]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:594][  4]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:610][  5]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:627][  6]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:644][  7]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:661][  8]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:677][  9]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:694][ 10]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:711][ 11]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:727][ 12]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:744][ 13]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:761][ 14]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:777][ 15]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:794][ 16]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:810][ 17]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:827][ 18]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:844][ 19]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:860][ 20]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:877][ 21]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:894][ 22]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:910][ 23]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:927][ 24]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:944][ 25]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:960][ 26]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:977][ 27]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.57:994][ 28]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:011][ 29]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:027][ 30]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:044][ 31]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:061][ 32]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:077][ 33]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:094][ 34]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:110][ 35]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:127][ 36]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:144][ 37]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:160][ 38]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:177][ 39]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:194][ 40]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:211][ 41]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:227][ 42]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:244][ 43]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:261][ 44]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:277][ 45]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:294][ 46]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:310][ 47]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:327][ 48]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:344][ 49]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:360][ 50]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:377][ 51]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:394][ 52]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:410][ 53]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:427][ 54]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:444][ 55]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:461][ 56]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:477][ 57]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:494][ 58]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:511][ 59]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:527][ 60]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:544][ 61]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:561][ 62]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:577][ 63]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:594][ 64]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:610][ 65]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:627][ 66]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:644][ 67]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:661][ 68]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:677][ 69]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:694][ 70]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:710][ 71]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:727][ 72]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:744][ 73]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:761][ 74]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:777][ 75]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:794][ 76]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:811][ 77]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:827][ 78]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:844][ 79]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:860][ 80]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:877][ 81]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:894][ 82]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:910][ 83]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:927][ 84]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:944][ 85]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:960][ 86]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:977][ 87]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.58:994][ 88]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:010][ 89]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:027][ 90]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:044][ 91]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:061][ 92]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:077][ 93]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:094][ 94]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:110][ 95]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:127][ 96]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:144][ 97]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:160][ 98]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:177][ 99]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:194][100]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:211][101]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:227][102]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:244][103]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:260][104]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:277][105]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:294][106]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:310][107]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:327][108]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:344][109]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:361][110]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:377][111]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:394][112]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:410][113]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:427][114]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:444][115]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:460][116]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:477][117]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:494][118]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:511][119]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:527][120]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:544][121]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:560][122]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:577][123]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:594][124]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:611][125]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:627][126]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:644][127]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:661][128]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:677][129]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:694][130]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:711][131]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:727][132]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:744][133]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:760][134]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:777][135]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:794][136]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:811][137]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:827][138]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:844][139]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:861][140]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:877][141]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:894][142]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:910][143]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:927][144]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:944][145]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:960][146]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:977][147]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.46.59:994][148]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:010][149]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:028][150]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:044][151]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:060][152]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:077][153]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:094][154]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:111][155]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:127][156]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:144][157]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:161][158]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:177][159]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:194][160]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:210][161]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:227][162]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:244][163]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:261][164]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:277][165]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:294][166]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:311][167]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:327][168]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:344][169]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:361][170]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:377][171]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:394][172]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:410][173]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:428][174]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:444][175]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:461][176]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:477][177]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:494][178]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:510][179]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:527][180]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:544][181]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:560][182]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:577][183]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:594][184]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:610][185]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:627][186]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:644][187]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:661][188]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:677][189]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:694][190]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:711][191]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:727][192]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:744][193]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:761][194]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:777][195]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:794][196]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:810][197]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:827][198]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:844][199]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:860][200]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:877][201]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:894][202]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:910][203]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:927][204]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:944][205]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:961][206]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:977][207]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.00:994][208]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:010][209]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:027][210]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:044][211]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:061][212]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:077][213]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:094][214]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:110][215]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:127][216]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:144][217]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:160][218]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:177][219]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:194][220]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:211][221]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:227][222]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:244][223]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:261][224]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:277][225]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:294][226]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:311][227]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:327][228]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:344][229]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:360][230]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:377][231]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:394][232]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:410][233]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:427][234]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:444][235]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:461][236]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:477][237]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:494][238]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:511][239]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:527][240]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:544][241]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:561][242]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:577][243]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:594][244]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:610][245]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:628][246]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:644][247]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:661][248]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:677][249]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:694][250]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:711][251]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:727][252]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:744][253]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:761][254]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:778][255]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:794][256]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:810][257]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:828][258]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:844][259]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:860][260]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:877][261]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:894][262]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:911][263]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:927][264]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:944][265]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:961][266]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:977][267]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.01:994][268]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:011][269]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:028][270]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:044][271]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:061][272]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:077][273]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:094][274]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:111][275]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:127][276]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:144][277]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:160][278]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:177][279]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:194][280]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:211][281]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:227][282]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:244][283]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:261][284]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:277][285]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:294][286]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:311][287]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:327][288]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:344][289]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:361][290]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:377][291]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:394][292]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:410][293]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:427][294]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:444][295]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:461][296]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:477][297]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:494][298]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:511][299]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:528][300]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:544][301]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:561][302]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:578][303]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:594][304]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:611][305]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:627][306]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:644][307]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:661][308]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:677][309]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:694][310]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:710][311]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:727][312]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:744][313]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:760][314]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:777][315]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:794][316]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:811][317]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:827][318]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:844][319]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:861][320]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:877][321]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:894][322]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:911][323]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:927][324]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:944][325]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:961][326]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:977][327]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.02:994][328]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:011][329]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:027][330]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:044][331]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:060][332]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:077][333]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:094][334]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:110][335]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:127][336]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:144][337]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:161][338]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:177][339]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:194][340]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:210][341]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:227][342]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:244][343]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:261][344]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:277][345]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:294][346]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:311][347]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:327][348]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:344][349]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:361][350]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:377][351]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:394][352]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:410][353]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:427][354]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:444][355]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:461][356]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:477][357]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:494][358]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:511][359]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:527][360]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:544][361]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:561][362]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:577][363]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:594][364]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:610][365]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:627][366]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:644][367]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:661][368]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:678][369]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:694][370]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:711][371]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:727][372]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:744][373]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:760][374]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:777][375]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:794][376]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:811][377]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:827][378]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:844][379]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:861][380]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:877][381]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:894][382]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:911][383]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:928][384]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:944][385]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:961][386]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:977][387]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.03:994][388]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:011][389]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:028][390]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:044][391]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:061][392]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:078][393]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:094][394]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:111][395]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:128][396]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:144][397]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:161][398]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:178][399]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:194][400]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:211][401]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:228][402]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:244][403]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:261][404]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:278][405]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:294][406]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:311][407]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:328][408]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:344][409]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:361][410]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:378][411]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:394][412]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:411][413]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:428][414]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:445][415]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:461][416]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:478][417]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:494][418]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:511][419]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:528][420]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:544][421]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:561][422]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:578][423]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:594][424]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:611][425]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:628][426]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:645][427]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:662][428]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:678][429]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:694][430]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:712][431]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:728][432]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:745][433]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:761][434]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:778][435]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:795][436]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:811][437]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:827][438]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:844][439]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:861][440]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:877][441]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:894][442]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:911][443]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:928][444]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:944][445]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:961][446]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:977][447]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.04:994][448]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:011][449]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:027][450]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:044][451]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:061][452]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:077][453]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:094][454]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:111][455]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:127][456]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:144][457]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:161][458]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:177][459]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:194][460]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:211][461]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:228][462]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:244][463]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:261][464]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:277][465]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:294][466]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:311][467]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:327][468]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:344][469]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:360][470]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:378][471]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:394][472]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:411][473]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:427][474]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:444][475]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:461][476]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:478][477]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:494][478]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:511][479]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:527][480]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:544][481]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:561][482]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:578][483]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:594][484]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:611][485]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:628][486]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:644][487]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:661][488]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:677][489]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:694][490]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:711][491]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:728][492]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:744][493]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:761][494]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:777][495]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:794][496]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:811][497]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:828][498]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:845][499]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:861][500]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:878][501]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:894][502]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:911][503]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:928][504]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:944][505]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:961][506]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:978][507]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.05:994][508]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:011][509]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:028][510]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:044][511]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:061][512]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:078][513]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:094][514]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:111][515]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:128][516]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:144][517]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:161][518]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:178][519]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:194][520]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:211][521]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:228][522]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:244][523]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:261][524]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:278][525]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:294][526]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:311][527]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:328][528]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:344][529]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:361][530]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:378][531]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:395][532]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:411][533]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:428][534]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:444][535]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:461][536]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:478][537]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:494][538]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:511][539]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:528][540]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:544][541]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:561][542]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:578][543]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:594][544]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:611][545]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:628][546]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:645][547]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:661][548]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:678][549]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:694][550]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:711][551]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:728][552]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:744][553]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:761][554]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:778][555]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:794][556]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:811][557]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:828][558]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:844][559]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:861][560]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:878][561]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:894][562]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:911][563]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:928][564]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:944][565]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.06:961][566]PIE:Warning: Warning Mobility of Floor : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.05.14-13.47.07:029][567]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.14-13.47.07:285][568]Cmd: QUIT_EDITOR
+[2017.05.14-13.47.07:371][568]LogExit: Preparing to exit.
+[2017.05.14-13.47.08:567][568]LogDirectoryWatcher: A directory notification for 'E:/Projekty/GTAsims/GTAsims 4.15/Content/' was aborted.
+[2017.05.14-13.47.08:582][568]LogExit: Editor shut down
+[2017.05.14-13.47.08:582][568]LogExit: Transaction tracking system shut down
+[2017.05.14-13.47.08:629][568]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.14-13.47.08:629][568]LogExit: Object subsystem successfully closed.
+[2017.05.14-13.47.08:645][568]LogD3D11RHI: Shutdown
+[2017.05.14-13.47.08:645][568]LogD3D11RHI: CleanupD3DDevice
+[2017.05.14-13.47.08:695][568]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.14-13.47.08:701][568]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.05.14-13.47.08:701][568]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.14-13.47.08:701][568]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.14-13.47.08:701][568]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.14-13.47.08:701][568]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.14-13.47.08:701][568]LogDirectoryWatcher: A directory notification for 'E:/Programy/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.14-13.47.08:703][568]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.14-13.47.08:703][568]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.14-13.47.08:703][568]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.14-13.47.08:703][568]LogDirectoryWatcher: A directory notification for 'E:/Projekty/GTAsims/GTAsims 4.15/Content/Collections/' was aborted.
+[2017.05.14-13.47.08:703][568]LogDirectoryWatcher: A directory notification for 'E:/Projekty/GTAsims/GTAsims 4.15/Content/Developers/Sebastian/Collections/' was aborted.
+[2017.05.14-13.47.08:703][568]LogDirectoryWatcher: A directory notification for 'E:/Projekty/GTAsims/GTAsims 4.15/Saved/Collections/' was aborted.
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.14-13.47.08:704][568]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.14-13.47.09:673][568]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.14-13.47.09:674][568]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.14-13.47.09:674][568]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.14-13.47.09:674][568]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.14-13.47.09:674][568]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.14-13.47.09:674][568]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.14-13.47.09:674][568]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.14-13.47.09:674][568]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.14-13.47.09:705][568]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.14-13.47.09:705][568]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.14-13.47.09:705][568]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.14-13.47.09:705][568]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.14-13.47.09:705][568]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.14-13.47.09:706][568]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.14-13.47.09:706][568]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.14-13.47.09:706][568]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.14-13.47.09:706][568]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.14-13.47.09:707][568]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.14-13.47.09:707][568]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.14-13.47.09:707][568]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.14-13.47.09:707][568]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.14-13.47.09:708][568]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.14-13.47.09:931][568]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.14-13.47.09:932][568]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.14-13.47.09:932][568]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.14-13.47.09:932][568]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.14-13.47.09:933][568]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.14-13.47.09:934][568]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.14-13.47.09:934][568]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.14-13.47.09:934][568]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.14-13.47.09:934][568]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.14-13.47.10:035][568]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.14-13.47.10:136][568]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.14-13.47.10:139][568]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.14-13.47.10:139][568]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.14-13.47.10:139][568]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.14-13.47.10:139][568]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.14-13.47.10:139][568]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.14-13.47.10:139][568]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.14-13.47.10:267][568]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.14-13.47.10:267][568]LogDirectoryWatcher: A directory notification for '../../../../../../Projekty/GTAsims/GTAsims 4.15/Content/' was aborted.
+[2017.05.14-13.47.10:268][568]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.14-13.47.10:268][568]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.14-13.47.10:268][568]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.14-13.47.10:268][568]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.14-13.47.10:268][568]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.14-13.47.10:268][568]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.14-13.47.10:268][568]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.14-13.47.10:268][568]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.14-13.47.10:268][568]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.14-13.47.10:268][568]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.14-13.47.10:300][568]LogDerivedDataCache: Shutdown
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.14-13.47.10:301][568]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.14-13.47.10:301][568]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.14-13.47.10:301][568]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.14-13.47.10:301][568]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA5E2EA2-4C7A-41B8-F826-559434C35CF6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=4d96a0564de7cbda4b6f70a3e91eefb6%7C4eb30a1dcfff4b17b1822d7d54ba7fd2%7C76057d18-e768-43e6-bd2d-cb26a34709d6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.14-13.47.10:315][568]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.14-13.47.10:316][568]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.14-13.47.10:316][568]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.14-13.47.10:316][568]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.14-13.47.10:316][568]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.14-13.47.10:316][568]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.14-13.47.10:317][568]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.14-13.47.10:317][568]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.14-13.47.10:317][568]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.14-13.47.10:317][568]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.14-13.47.10:317][568]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.14-13.47.10:317][568]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.14-13.47.10:317][568]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.14-13.47.10:317][568]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.14-13.47.10:317][568]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.14-13.47.10:317][568]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.14-13.47.10:326][568]LogExit: Exiting.
+[2017.05.14-13.47.10:327][568]Log file closed, 05/14/17 15:47:10

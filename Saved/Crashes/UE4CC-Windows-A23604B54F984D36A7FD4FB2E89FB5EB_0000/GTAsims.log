@@ -1,0 +1,829 @@
+﻿Log file open, 06/16/17 17:29:21
+LogInit:Display: Running engine for game: GTAsims
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1141878753) SRandInit(1141878753).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.101440
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.16-15.29.22:491][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.16-15.29.22:491][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.16-15.29.22:514][  0]LogInit: Computer: DESKTOP-A4GNOHH
+[2017.06.16-15.29.22:514][  0]LogInit: User: Maciek
+[2017.06.16-15.29.22:514][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.16-15.29.22:514][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2017.06.16-15.29.22:514][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.06.16-15.29.22:514][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.16-15.29.22:514][  0]LogMemory: Process Physical Memory: 272.38 MB used, 272.38 MB peak
+[2017.06.16-15.29.22:514][  0]LogMemory: Process Virtual Memory: 258.71 MB used, 258.71 MB peak
+[2017.06.16-15.29.22:514][  0]LogMemory: Physical Memory: 4461.52 MB used,  3681.57 MB free, 8143.09 MB total
+[2017.06.16-15.29.22:514][  0]LogMemory: Virtual Memory: 635.45 MB used,  3681.57 MB free, 134217728.00 MB total
+[2017.06.16-15.29.22:588][  0]LogInit: Using OS detected language (pl-PL).
+[2017.06.16-15.29.22:588][  0]LogInit: Using OS detected locale (pl-PL).
+[2017.06.16-15.29.22:591][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2017.06.16-15.29.22:591][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
+[2017.06.16-15.29.23:564][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.16-15.29.24:134][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.06.16-15.29.24:134][  0]LogD3D11RHI:       2016/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.16-15.29.24:136][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.16-15.29.24:136][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.16-15.29.24:136][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.16-15.29.24:139][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.16-15.29.24:139][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.16-15.29.24:139][  0]LogWindows: EnumDisplayDevices:
+[2017.06.16-15.29.24:139][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.06.16-15.29.24:139][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.06.16-15.29.24:140][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.06.16-15.29.24:140][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.06.16-15.29.24:140][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.16-15.29.24:140][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.06.16-15.29.24:140][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.16-15.29.24:140][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.16-15.29.24:140][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.16-15.29.24:671][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.16-15.29.24:698][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.16-15.29.24:750][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (D:/Projekty/Unreal Engine/GTAsims 4.15/Intermediate/Shaders/WorkingDirectory/6836/).
+[2017.06.16-15.29.24:751][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Maciek/AppData/Local/Temp/UnrealShaderWorkingDir/F779B1E3407E57A631F7EEA475364A97/'.
+[2017.06.16-15.29.24:751][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.16-15.29.25:809][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.16-15.29.25:878][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.16-15.29.25:947][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.16-15.29.26:012][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.16-15.29.26:077][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.16-15.29.26:141][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.16-15.29.26:203][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.16-15.29.26:268][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.16-15.29.26:325][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.16-15.29.26:388][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.16-15.29.26:448][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.16-15.29.26:507][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.16-15.29.26:565][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.16-15.29.26:625][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.16-15.29.26:684][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.16-15.29.26:806][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.16-15.29.26:806][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.16-15.29.26:859][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.16-15.29.26:965][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.16-15.29.26:997][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.16-15.29.27:057][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.16-15.29.27:119][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.16-15.29.27:180][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.16-15.29.27:239][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.16-15.29.27:239][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.16-15.29.27:838][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.16-15.29.27:948][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/Maciek/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.16-15.29.27:948][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Maciek/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.16-15.29.27:948][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Projekty/Unreal Engine/GTAsims 4.15/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.16-15.29.27:948][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.16-15.29.27:948][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Projekty/Unreal Engine/GTAsims 4.15/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.16-15.29.27:948][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.16-15.29.27:965][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.16-15.29.27:977][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Maciek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.16-15.29.27:987][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.16-15.29.27:987][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.16-15.29.27:988][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.16-15.29.27:988][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.16-15.29.28:331][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.16-15.29.28:417][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.16-15.29.28:591][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.16-15.29.28:650][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.16-15.29.28:715][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.16-15.29.28:715][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.16-15.29.28:715][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.16-15.29.29:321][  0]LogNetVersion: GTAsims , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 60064449)
+[2017.06.16-15.29.29:388][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2017.06.16-15.29.29:494][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.082083 seconds
+[2017.06.16-15.29.29:500][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.16-15.29.29:500][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.16-15.29.29:500][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.16-15.29.29:580][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.16-15.29.32:430][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.16-15.29.32:478][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.16-15.29.33:193][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.16-15.29.33:693][  0]SourceControl: Info Source control is disabled
+[2017.06.16-15.29.33:694][  0]SourceControl: Info Source control is disabled
+[2017.06.16-15.29.33:757][  0]SourceControl: Info Source control is disabled
+[2017.06.16-15.29.33:821][  0]SourceControl: Info Source control is disabled
+[2017.06.16-15.29.34:711][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.16-15.29.35:493][  0]LogEngine: Initializing Engine...
+[2017.06.16-15.29.35:494][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.16-15.29.35:712][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.16-15.29.35:712][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.16-15.29.35:879][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.16-15.29.35:894][  0]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-15.29.35:906][  0]LogInit: FAudioDevice initialized.
+[2017.06.16-15.29.35:962][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Maciek/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.16-15.29.35:982][  0]LogInit: Texture streaming: Enabled
+[2017.06.16-15.29.36:091][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.16-15.29.36:376][  0]LogInit: Transaction tracking system initialized
+[2017.06.16-15.29.36:778][  0]BlueprintLog: New page: Editor Load
+[2017.06.16-15.29.37:987][  0]LocalizationService: Info Localization service is disabled
+[2017.06.16-15.29.38:866][  0]LogConsoleResponse:Display: 
+[2017.06.16-15.29.39:041][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.16-15.29.39:041][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.16-15.29.39:703][  0]LogFileCache: Scanning file cache for directory 'D:/Projekty/Unreal Engine/GTAsims 4.15/Content/' took 0.01s
+[2017.06.16-15.29.40:357][  0]SourceControl: Info Source control is disabled
+[2017.06.16-15.29.40:357][  0]Cmd: MAP LOAD FILE="D:/Projekty/Unreal Engine/GTAsims 4.15/Content/LV1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.16-15.29.40:387][  0]LightingResults: New page: Lighting Build
+[2017.06.16-15.29.40:441][  0]MapCheck: New page: Map Check
+[2017.06.16-15.29.40:441][  0]LightingResults: New page: Lighting Build
+[2017.06.16-15.29.41:665][  0]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-15.29.41:674][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.16-15.29.41:692][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.16-15.29.41:793][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.601ms to complete.
+[2017.06.16-15.29.41:793][  0]LogFileHelpers: Loading map 'LV1' took 1.436
+[2017.06.16-15.29.41:869][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.16-15.29.41:969][  0]LogCollectionManager: Loaded 0 collections in 0.002887 seconds
+[2017.06.16-15.29.42:075][  0]LogFileCache: Scanning file cache for directory 'D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/Collections/' took 0.01s
+[2017.06.16-15.29.42:075][  0]LogFileCache: Scanning file cache for directory 'D:/Projekty/Unreal Engine/GTAsims 4.15/Content/Developers/Maciek/Collections/' took 0.01s
+[2017.06.16-15.29.42:075][  0]LogFileCache: Scanning file cache for directory 'D:/Projekty/Unreal Engine/GTAsims 4.15/Content/Collections/' took 0.01s
+[2017.06.16-15.29.42:075][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.16-15.29.42:085][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2329 classes and 491 folders.
+[2017.06.16-15.29.42:170][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.16-15.29.42:267][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.16-15.29.42:333][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.16-15.29.42:469][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.16-15.29.42:476][  0]LogSlate: Took 0.000424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.16-15.29.42:479][  0]LogSlate: Took 0.000544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.16-15.29.42:487][  0]LogSlate: Took 0.001291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.16-15.29.42:606][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.06.16-15.29.42:674][  0]LogSlate: Took 0.001013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.16-15.29.42:798][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.16-15.29.42:891][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.16-15.29.42:891][  0]LogLoad: (Engine Initialization) Total time: 22.89 seconds
+[2017.06.16-15.29.42:891][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.32 seconds
+[2017.06.16-15.29.42:891][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.16-15.29.42:909][  0]LogOcInput: OculusInput pre-init called
+[2017.06.16-15.29.42:909][  0]LogHMD: Starting GearVRController plugin
+[2017.06.16-15.29.42:932][  0]LogAssetRegistry: Asset discovery search completed in 13.5661 seconds
+[2017.06.16-15.29.42:933][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.16-15.29.42:933][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.06.16-15.29.42:937][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.16-15.30.27:079][650]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-15.30.27:189][650]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.30.27:189][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-15.30.27:189][650]PIE: New page: PIE session: LV1 (Jun 16, 2017, 7:30:27 PM)
+[2017.06.16-15.30.27:190][650]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-15.30.27:195][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005125s)
+[2017.06.16-15.30.27:195][650]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-15.30.27:196][650]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2017.06.16-15.30.27:196][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.006335s)
+[2017.06.16-15.30.27:223][650]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-15.30.27:232][650]LogInit: FAudioDevice initialized.
+[2017.06.16-15.30.27:283][650]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-15.30.27:286][650]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-17.30.27
+[2017.06.16-15.30.27:288][650]LogWorld: Bringing up level for play took: 0.003051
+[2017.06.16-15.30.27:291][650]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-15.30.27:351][650]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.06.16-15.30.27:351][650]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.30.27:351][650]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.30.27:351][650]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.30.27:359][650]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.30.27:359][650]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 0.898
+[2017.06.16-15.30.27:359][650]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.30.29:231][779]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.30.29:267][779]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.30.45:066][729]Cmd: SELECT NONE
+[2017.06.16-15.31.24:124][ 52]LogSlate: Took 0.000462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.16-15.31.24:631][ 52]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.06.16-15.31.25:223][ 52]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.16-15.31.25:294][ 52]LogSlate: Took 0.001047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.16-15.31.25:513][ 53]LogSlate: Took 0.001041 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.16-15.32.26:492][785]LogHttp:Warning: 0000024E73042380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.32.26:492][785]LogHttp:Warning: 0000024E73042380: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x24e27fd3fe8 [can pipeline])
+[2017.06.16-15.32.26:492][785]LogHttp:Warning: 0000024E73042380: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2017.06.16-15.32.26:492][785]LogHttp:Warning: 0000024E73042380: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.165.158.243) port 443 (#0))
+[2017.06.16-15.32.26:492][785]LogHttp:Warning: 0000024E73042380: libcurl info message cache 3 (upload completely sent off: 794 out of 794 bytes)
+[2017.06.16-15.32.26:492][785]LogHttp:Warning: 0000024E73042380: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.06.16-15.32.26:492][785]LogHttp:Warning: 0000024E73042380: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.16-15.32.26:492][785]LogHttp:Warning: 0000024E73042380: libcurl info message cache 6 (Closing connection 0)
+[2017.06.16-15.32.26:492][785]LogHttp:Warning: 0000024E73042380: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B27DA9F46-4A2B-7288-2E8B-F5BC7773C0DE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=d955eb314a1c9e8c389d96a793628a38%7C579ce6e177c349f5bc42aaa76c8fe4f8%7C665b82a6-fde0-4f5c-9bed-ac59c7813dd1&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.16-15.32.26:492][785]LogHttp:Warning: 0000024E73042380: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.32.26:492][785]LogHttp:Warning: 0000024E73042380: libcurl info message cache 9 (Closing connection 1)
+[2017.06.16-15.32.43:321][770]LogHttp:Warning: 0000024E386E8580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.32.43:321][770]LogHttp:Warning: 0000024E386E8580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.32.43:321][770]LogHttp:Warning: 0000024E386E8580: libcurl info message cache 1 (Closing connection 2)
+[2017.06.16-15.34.42:945][959]LogHttp:Warning: 0000024E386E8880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.34.42:945][959]LogHttp:Warning: 0000024E386E8880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.34.42:946][959]LogHttp:Warning: 0000024E386E8880: libcurl info message cache 1 (Closing connection 3)
+[2017.06.16-15.35.42:936][557]LogHttp:Warning: 0000024E386EA500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.35.42:936][557]LogHttp:Warning: 0000024E386EA500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.35.42:936][557]LogHttp:Warning: 0000024E386EA500: libcurl info message cache 1 (Closing connection 4)
+[2017.06.16-15.37.42:925][756]LogHttp:Warning: 0000024E737E6800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.37.42:925][756]LogHttp:Warning: 0000024E737E6800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.37.42:925][756]LogHttp:Warning: 0000024E737E6800: libcurl info message cache 1 (Closing connection 5)
+[2017.06.16-15.38.42:946][357]LogHttp:Warning: 0000024E737D7B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.38.42:946][357]LogHttp:Warning: 0000024E737D7B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.38.42:946][357]LogHttp:Warning: 0000024E737D7B80: libcurl info message cache 1 (Closing connection 6)
+[2017.06.16-15.39.49:079][324]BlueprintLog: New page: Compile PickupInvTemplate
+[2017.06.16-15.39.50:546][412]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-15.39.50:560][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.39.50:560][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-15.39.50:560][412]PIE: New page: PIE session: LV1 (Jun 16, 2017, 7:39:50 PM)
+[2017.06.16-15.39.50:560][412]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-15.39.50:565][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004973s)
+[2017.06.16-15.39.50:566][412]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-15.39.50:566][412]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2017.06.16-15.39.50:566][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005888s)
+[2017.06.16-15.39.50:591][412]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-15.39.50:600][412]LogInit: FAudioDevice initialized.
+[2017.06.16-15.39.50:631][412]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-15.39.50:633][412]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-17.39.50
+[2017.06.16-15.39.50:633][412]LogWorld: Bringing up level for play took: 0.001073
+[2017.06.16-15.39.50:633][412]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-15.39.50:634][412]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.39.50:634][412]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.39.50:634][412]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.39.50:636][412]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.39.50:636][412]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 0.174
+[2017.06.16-15.39.50:636][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.39.56:696][781]LogScript:Warning: Attempted to access PickupInv2_161 via property K2Node_DynamicCast_AsUse2, but PickupInv2_161 is pending kill
+	Ekwipunek_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.Ekwipunek_C_1
+	Function /Game/GównoEkwipunek/Ekwipunek.Ekwipunek_C:ExecuteUbergraph_Ekwipunek:08E5
+[2017.06.16-15.39.59:281][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.39.59:321][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.40.04:811][251]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.16-15.40.42:938][556]LogHttp:Warning: 0000024E2001A800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.40.42:938][556]LogHttp:Warning: 0000024E2001A800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.40.42:938][556]LogHttp:Warning: 0000024E2001A800: libcurl info message cache 1 (Closing connection 7)
+[2017.06.16-15.40.56:351][360]BlueprintLog: New page: Compile Ekwipunek
+[2017.06.16-15.40.56:478][360]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.16-15.40.57:197][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GównoEkwipunek/Ekwipunek" FILE="D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/Ekwipunek.uasset" SILENT=true
+[2017.06.16-15.40.57:373][409]LogSavePackage: Save=96.19ms
+[2017.06.16-15.40.57:373][409]LogSavePackage: Moving 'D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/EkwipunekC36479994CBEE7BF2AB3A9B9547D9DDE.tmp' to 'D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/Ekwipunek.uasset'
+[2017.06.16-15.40.57:374][409]LogSavePackage:Display: Finished SavePackage D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/Ekwipunek.uasset
+[2017.06.16-15.40.58:534][491]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-15.40.58:551][491]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.40.58:551][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-15.40.58:551][491]PIE: New page: PIE session: LV1 (Jun 16, 2017, 7:40:58 PM)
+[2017.06.16-15.40.58:551][491]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-15.40.58:556][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004305s)
+[2017.06.16-15.40.58:556][491]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-15.40.58:556][491]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2017.06.16-15.40.58:557][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005225s)
+[2017.06.16-15.40.58:582][491]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-15.40.58:589][491]LogInit: FAudioDevice initialized.
+[2017.06.16-15.40.58:617][491]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-15.40.58:618][491]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-17.40.58
+[2017.06.16-15.40.58:619][491]LogWorld: Bringing up level for play took: 0.001173
+[2017.06.16-15.40.58:619][491]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-15.40.58:619][491]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.40.58:619][491]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.40.58:619][491]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.40.58:621][491]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.40.58:621][491]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 0.16
+[2017.06.16-15.40.58:622][491]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.41.02:051][702]LogScript:Warning: Attempted to access PickupInv2_161 via property K2Node_DynamicCast_AsUse2, but PickupInv2_161 is pending kill
+	Ekwipunek_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.Ekwipunek_C_2
+	Function /Game/GównoEkwipunek/Ekwipunek.Ekwipunek_C:ExecuteUbergraph_Ekwipunek:08E5
+[2017.06.16-15.41.03:368][781]LogScript:Warning: Attempted to access PickupInvTemplate2_296 via property K2Node_DynamicCast_AsUse2, but PickupInvTemplate2_296 is pending kill
+	Ekwipunek_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.Ekwipunek_C_2
+	Function /Game/GównoEkwipunek/Ekwipunek.Ekwipunek_C:ExecuteUbergraph_Ekwipunek:08E5
+[2017.06.16-15.41.03:736][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.41.03:771][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.41.42:960][156]LogHttp:Warning: 0000024E29489D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.41.42:960][156]LogHttp:Warning: 0000024E29489D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.41.42:960][156]LogHttp:Warning: 0000024E29489D80: libcurl info message cache 1 (Closing connection 8)
+[2017.06.16-15.42.01:313][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV1" FILE="D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/Autosaves/Game/LV1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.06.16-15.42.01:442][252]LogSavePackage: Save=119.49ms
+[2017.06.16-15.42.01:442][252]LogSavePackage: Moving 'D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/LV1_Auto19E08794E4D4102F68FF9EA9959474B36.tmp' to 'D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/Autosaves/Game/LV1_Auto1.umap'
+[2017.06.16-15.42.01:465][252]LogSavePackage:Display: Finished SavePackage D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/Autosaves/Game/LV1_Auto1.umap
+[2017.06.16-15.42.01:466][252]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LV1' took 0.188
+[2017.06.16-15.42.01:466][252]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.188
+[2017.06.16-15.42.01:481][252]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GównoEkwipunek/PickupInvTemplate] ([1] browsable assets)...
+[2017.06.16-15.42.01:498][252]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GównoEkwipunek/PickupInvTemplate.PickupInvTemplate]
+[2017.06.16-15.42.01:498][252]OBJ SavePackage: Finished generating thumbnails for package [/Game/GównoEkwipunek/PickupInvTemplate]
+[2017.06.16-15.42.01:550][252]LogSavePackage: Save=41.67ms
+[2017.06.16-15.42.01:550][252]LogSavePackage: Moving 'D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/PickupInvTemplate_Auto1F987E3DA451CD66DDBD336A702584A16.tmp' to 'D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/Autosaves/Game/GównoEkwipunek/PickupInvTemplate_Auto1.uasset'
+[2017.06.16-15.42.01:564][252]LogSavePackage:Display: Finished SavePackage D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/Autosaves/Game/GównoEkwipunek/PickupInvTemplate_Auto1.uasset
+[2017.06.16-15.42.01:565][252]LogFileHelpers: Auto-saving content packages took 0.097
+[2017.06.16-15.43.42:942][353]LogHttp:Warning: 0000024E2940D300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.43.42:942][353]LogHttp:Warning: 0000024E2940D300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.43.42:942][353]LogHttp:Warning: 0000024E2940D300: libcurl info message cache 1 (Closing connection 9)
+[2017.06.16-15.45.42:950][552]LogHttp:Warning: 0000024E2940EF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.45.42:950][552]LogHttp:Warning: 0000024E2940EF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.45.42:950][552]LogHttp:Warning: 0000024E2940EF80: libcurl info message cache 1 (Closing connection 10)
+[2017.06.16-15.46.07:965][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GównoEkwipunek/Ekwipunek" FILE="D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/Ekwipunek.uasset" SILENT=true
+[2017.06.16-15.46.08:068][ 51]LogSavePackage: Save=91.88ms
+[2017.06.16-15.46.08:068][ 51]LogSavePackage: Moving 'D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/EkwipunekBBF32A2B4F233063D6768F84E0F56D17.tmp' to 'D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/Ekwipunek.uasset'
+[2017.06.16-15.46.08:069][ 51]LogSavePackage:Display: Finished SavePackage D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/Ekwipunek.uasset
+[2017.06.16-15.46.42:933][151]LogHttp:Warning: 0000024E83C7AF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.46.42:933][151]LogHttp:Warning: 0000024E83C7AF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.46.42:933][151]LogHttp:Warning: 0000024E83C7AF80: libcurl info message cache 1 (Closing connection 11)
+[2017.06.16-15.47.11:436][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GównoEkwipunek/Ekwipunek" FILE="D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/Ekwipunek.uasset" SILENT=true
+[2017.06.16-15.47.11:536][859]LogSavePackage: Save=90.93ms
+[2017.06.16-15.47.11:536][859]LogSavePackage: Moving 'D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/EkwipunekDB8D29754A8ADD271EF183B6DA46D170.tmp' to 'D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/Ekwipunek.uasset'
+[2017.06.16-15.47.11:537][859]LogSavePackage:Display: Finished SavePackage D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/Ekwipunek.uasset
+[2017.06.16-15.47.13:129][962]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-15.47.13:149][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.47.13:149][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-15.47.13:149][962]PIE: New page: PIE session: LV1 (Jun 16, 2017, 7:47:13 PM)
+[2017.06.16-15.47.13:149][962]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-15.47.13:154][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004882s)
+[2017.06.16-15.47.13:154][962]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-15.47.13:155][962]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2017.06.16-15.47.13:155][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005939s)
+[2017.06.16-15.47.13:182][962]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-15.47.13:189][962]LogInit: FAudioDevice initialized.
+[2017.06.16-15.47.13:218][962]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-15.47.13:219][962]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-17.47.13
+[2017.06.16-15.47.13:219][962]LogWorld: Bringing up level for play took: 0.001101
+[2017.06.16-15.47.13:220][962]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-15.47.13:220][962]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.47.13:220][962]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.47.13:220][962]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.47.13:222][962]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.47.13:222][962]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 0.761
+[2017.06.16-15.47.13:223][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.47.17:363][216]LogScript:Warning: Attempted to access PickupInv2_161 via property K2Node_DynamicCast_AsUse2, but PickupInv2_161 is pending kill
+	Ekwipunek_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.Ekwipunek_C_6
+	Function /Game/GównoEkwipunek/Ekwipunek.Ekwipunek_C:ExecuteUbergraph_Ekwipunek:08E5
+[2017.06.16-15.47.24:132][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.47.24:164][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.48.13:148][563]LogHttp:Warning: 0000024E5DBB2B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.48.13:148][563]LogHttp:Warning: 0000024E5DBB2B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.48.13:148][563]LogHttp:Warning: 0000024E5DBB2B00: libcurl info message cache 1 (Closing connection 12)
+[2017.06.16-15.49.42:938][950]LogHttp:Warning: 0000024E5DBB2500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.49.42:938][950]LogHttp:Warning: 0000024E5DBB2500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.49.42:938][950]LogHttp:Warning: 0000024E5DBB2500: libcurl info message cache 1 (Closing connection 13)
+[2017.06.16-15.50.06:412][358]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-15.50.06:429][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.50.06:429][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-15.50.06:429][358]PIE: New page: PIE session: LV1 (Jun 16, 2017, 7:50:06 PM)
+[2017.06.16-15.50.06:430][358]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-15.50.06:434][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004497s)
+[2017.06.16-15.50.06:435][358]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-15.50.06:435][358]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2017.06.16-15.50.06:435][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005324s)
+[2017.06.16-15.50.06:460][358]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-15.50.06:467][358]LogInit: FAudioDevice initialized.
+[2017.06.16-15.50.06:495][358]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-15.50.06:496][358]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-17.50.06
+[2017.06.16-15.50.06:496][358]LogWorld: Bringing up level for play took: 0.001073
+[2017.06.16-15.50.06:497][358]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-15.50.06:497][358]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.50.06:497][358]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.50.06:497][358]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.50.06:500][358]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.50.06:500][358]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 0.038
+[2017.06.16-15.50.06:500][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.50.20:480][202]LogScript:Warning: Attempted to access PickupInvTemplate_155 via property K2Node_DynamicCast_AsUse2, but PickupInvTemplate_155 is pending kill
+	Ekwipunek_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Ekwipunek_C_9
+	Function /Game/GównoEkwipunek/Ekwipunek.Ekwipunek_C:ExecuteUbergraph_Ekwipunek:08E5
+[2017.06.16-15.50.27:465][621]LogScript:Warning: Attempted to access PickupInv2_161 via property K2Node_DynamicCast_AsUse2, but PickupInv2_161 is pending kill
+	Ekwipunek_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Ekwipunek_C_9
+	Function /Game/GównoEkwipunek/Ekwipunek.Ekwipunek_C:ExecuteUbergraph_Ekwipunek:08E5
+[2017.06.16-15.50.29:017][714]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.50.29:051][714]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.51.06:426][959]LogHttp:Warning: 0000024E82E1B880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.51.06:426][959]LogHttp:Warning: 0000024E82E1B880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.51.06:426][959]LogHttp:Warning: 0000024E82E1B880: libcurl info message cache 1 (Closing connection 14)
+[2017.06.16-15.51.20:719][816]BlueprintLog: New page: Compile PickupInvTemplate
+[2017.06.16-15.51.21:453][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GównoEkwipunek/PickupInvTemplate" FILE="D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/PickupInvTemplate.uasset" SILENT=true
+[2017.06.16-15.51.21:510][858]LogSavePackage: Save=47.65ms
+[2017.06.16-15.51.21:510][858]LogSavePackage: Moving 'D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/PickupInvTemplateD173E22C4172C0E549681586E816F9E0.tmp' to 'D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/PickupInvTemplate.uasset'
+[2017.06.16-15.51.21:511][858]LogSavePackage:Display: Finished SavePackage D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/PickupInvTemplate.uasset
+[2017.06.16-15.52.14:446][ 40]LogHttp:Warning: 0000024E38702800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.52.14:446][ 40]LogHttp:Warning: 0000024E38702800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.52.14:446][ 40]LogHttp:Warning: 0000024E38702800: libcurl info message cache 1 (Closing connection 15)
+[2017.06.16-15.52.23:288][570]BlueprintLog: New page: Compile PickupInvTemplate
+[2017.06.16-15.52.23:906][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GównoEkwipunek/PickupInvTemplate" FILE="D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/PickupInvTemplate.uasset" SILENT=true
+[2017.06.16-15.52.23:977][605]LogSavePackage: Save=39.85ms
+[2017.06.16-15.52.23:977][605]LogSavePackage: Moving 'D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/PickupInvTemplate6189D1DD4FEE72C76F521B9B97B1E95E.tmp' to 'D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/PickupInvTemplate.uasset'
+[2017.06.16-15.52.23:978][605]LogSavePackage:Display: Finished SavePackage D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/PickupInvTemplate.uasset
+[2017.06.16-15.52.25:455][700]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-15.52.25:475][700]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.52.25:475][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-15.52.25:475][700]PIE: New page: PIE session: LV1 (Jun 16, 2017, 7:52:25 PM)
+[2017.06.16-15.52.25:475][700]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-15.52.25:480][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004372s)
+[2017.06.16-15.52.25:480][700]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-15.52.25:480][700]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2017.06.16-15.52.25:481][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005186s)
+[2017.06.16-15.52.25:507][700]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-15.52.25:515][700]LogInit: FAudioDevice initialized.
+[2017.06.16-15.52.25:544][700]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-15.52.25:545][700]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-17.52.25
+[2017.06.16-15.52.25:546][700]LogWorld: Bringing up level for play took: 0.001105
+[2017.06.16-15.52.25:546][700]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-15.52.25:546][700]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.52.25:546][700]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.52.25:546][700]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.52.25:549][700]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.52.25:549][700]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 -0.913
+[2017.06.16-15.52.25:549][700]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.52.30:872][ 25]LogScript:Warning: Attempted to access PickupInv2_161 via property K2Node_DynamicCast_AsUse2, but PickupInv2_161 is pending kill
+	Ekwipunek_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.Ekwipunek_C_14
+	Function /Game/GównoEkwipunek/Ekwipunek.Ekwipunek_C:ExecuteUbergraph_Ekwipunek:08E5
+[2017.06.16-15.52.32:023][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.52.32:056][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.52.48:027][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GównoEkwipunek/PickupInvTemplate" FILE="D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/PickupInvTemplate.uasset" SILENT=true
+[2017.06.16-15.52.48:071][ 53]LogSavePackage: Save=34.52ms
+[2017.06.16-15.52.48:071][ 53]LogSavePackage: Moving 'D:/Projekty/Unreal Engine/GTAsims 4.15/Saved/PickupInvTemplateB9B1FD674AFE3D35B126299B4EA0C73C.tmp' to 'D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/PickupInvTemplate.uasset'
+[2017.06.16-15.52.48:072][ 53]LogSavePackage:Display: Finished SavePackage D:/Projekty/Unreal Engine/GTAsims 4.15/Content/GównoEkwipunek/PickupInvTemplate.uasset
+[2017.06.16-15.53.20:028][971]LogHttp:Warning: 0000024E8E29AB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.53.20:028][971]LogHttp:Warning: 0000024E8E29AB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.53.20:028][971]LogHttp:Warning: 0000024E8E29AB00: libcurl info message cache 1 (Closing connection 16)
+[2017.06.16-15.53.32:618][726]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-15.53.32:631][726]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.53.32:631][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-15.53.32:631][726]PIE: New page: PIE session: LV1 (Jun 16, 2017, 7:53:32 PM)
+[2017.06.16-15.53.32:631][726]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-15.53.32:635][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003845s)
+[2017.06.16-15.53.32:636][726]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-15.53.32:636][726]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.06.16-15.53.32:636][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.004616s)
+[2017.06.16-15.53.32:661][726]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-15.53.32:668][726]LogInit: FAudioDevice initialized.
+[2017.06.16-15.53.32:701][726]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-15.53.32:703][726]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-17.53.32
+[2017.06.16-15.53.32:704][726]LogWorld: Bringing up level for play took: 0.001158
+[2017.06.16-15.53.32:704][726]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-15.53.32:704][726]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.53.32:704][726]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.53.32:704][726]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.53.32:707][726]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.53.32:707][726]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 0.245
+[2017.06.16-15.53.32:707][726]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.53.36:851][980]LogScript:Warning: Attempted to access PickupInv2_161 via property K2Node_DynamicCast_AsUse2, but PickupInv2_161 is pending kill
+	Ekwipunek_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.Ekwipunek_C_17
+	Function /Game/GównoEkwipunek/Ekwipunek.Ekwipunek_C:ExecuteUbergraph_Ekwipunek:08E5
+[2017.06.16-15.53.37:653][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.53.37:693][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.53.52:002][889]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-15.53.52:023][889]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.53.52:023][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-15.53.52:023][889]PIE: New page: PIE session: LV1 (Jun 16, 2017, 7:53:52 PM)
+[2017.06.16-15.53.52:023][889]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-15.53.52:027][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004487s)
+[2017.06.16-15.53.52:028][889]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-15.53.52:028][889]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2017.06.16-15.53.52:028][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005306s)
+[2017.06.16-15.53.52:054][889]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-15.53.52:061][889]LogInit: FAudioDevice initialized.
+[2017.06.16-15.53.52:092][889]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-15.53.52:094][889]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-17.53.52
+[2017.06.16-15.53.52:094][889]LogWorld: Bringing up level for play took: 0.001094
+[2017.06.16-15.53.52:094][889]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-15.53.52:094][889]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.53.52:094][889]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.53.52:094][889]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.53.52:097][889]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.53.52:097][889]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 -0.365
+[2017.06.16-15.53.52:097][889]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.54.04:385][632]LogScript:Warning: Attempted to access PickupInv2_161 via property K2Node_DynamicCast_AsUse2, but PickupInv2_161 is pending kill
+	Ekwipunek_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.Ekwipunek_C_20
+	Function /Game/GównoEkwipunek/Ekwipunek.Ekwipunek_C:ExecuteUbergraph_Ekwipunek:08E5
+[2017.06.16-15.54.12:587][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.54.12:620][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.54.32:663][329]LogHttp:Warning: 0000024E9479CA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.54.32:663][329]LogHttp:Warning: 0000024E9479CA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.54.32:663][329]LogHttp:Warning: 0000024E9479CA00: libcurl info message cache 1 (Closing connection 17)
+[2017.06.16-15.55.42:934][545]LogHttp:Warning: 0000024E737D7D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.55.42:934][545]LogHttp:Warning: 0000024E737D7D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.55.42:934][545]LogHttp:Warning: 0000024E737D7D00: libcurl info message cache 1 (Closing connection 18)
+[2017.06.16-15.55.48:490][878]BlueprintLog: New page: Compile Ekwipunek
+[2017.06.16-15.55.48:624][878]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.16-15.55.49:807][957]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-15.55.49:822][957]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.55.49:822][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-15.55.49:822][957]PIE: New page: PIE session: LV1 (Jun 16, 2017, 7:55:49 PM)
+[2017.06.16-15.55.49:822][957]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-15.55.49:826][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004293s)
+[2017.06.16-15.55.49:827][957]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-15.55.49:827][957]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2017.06.16-15.55.49:827][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005110s)
+[2017.06.16-15.55.49:859][957]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-15.55.49:867][957]LogInit: FAudioDevice initialized.
+[2017.06.16-15.55.49:901][957]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-15.55.49:903][957]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-17.55.49
+[2017.06.16-15.55.49:903][957]LogWorld: Bringing up level for play took: 0.001078
+[2017.06.16-15.55.49:903][957]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-15.55.49:903][957]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.55.49:903][957]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-15.55.49:903][957]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.55.49:906][957]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-15.55.49:906][957]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 -0.556
+[2017.06.16-15.55.49:906][957]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.55.53:378][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.55.53:416][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-15.56.42:947][145]LogHttp:Warning: 0000024E86EF1000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.56.42:947][145]LogHttp:Warning: 0000024E86EF1000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.56.42:947][145]LogHttp:Warning: 0000024E86EF1000: libcurl info message cache 1 (Closing connection 19)
+[2017.06.16-15.56.56:017][929]BlueprintLog: New page: Compile Ekwipunek
+[2017.06.16-15.56.56:147][929]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.16-15.57.48:494][ 78]LogHttp:Warning: 0000024EA5217700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.57.48:494][ 78]LogHttp:Warning: 0000024EA5217700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.57.48:494][ 78]LogHttp:Warning: 0000024EA5217700: libcurl info message cache 1 (Closing connection 20)
+[2017.06.16-15.59.30:390][191]LogHttp:Warning: 0000024EB2A57A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-15.59.30:390][191]LogHttp:Warning: 0000024EB2A57A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-15.59.30:390][191]LogHttp:Warning: 0000024EB2A57A00: libcurl info message cache 1 (Closing connection 21)
+[2017.06.16-16.00.30:839][818]LogHttp:Warning: 0000024E8275DC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-16.00.30:839][818]LogHttp:Warning: 0000024E8275DC00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-16.00.30:839][818]LogHttp:Warning: 0000024E8275DC00: libcurl info message cache 1 (Closing connection 22)
+[2017.06.16-16.00.36:495][157]BlueprintLog: New page: Compile Ekwipunek
+[2017.06.16-16.00.36:632][157]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.16-16.00.37:611][224]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-16.00.37:628][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.00.37:628][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-16.00.37:628][224]PIE: New page: PIE session: LV1 (Jun 16, 2017, 8:00:37 PM)
+[2017.06.16-16.00.37:628][224]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-16.00.37:633][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004419s)
+[2017.06.16-16.00.37:633][224]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-16.00.37:633][224]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2017.06.16-16.00.37:634][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005209s)
+[2017.06.16-16.00.37:661][224]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-16.00.37:669][224]LogInit: FAudioDevice initialized.
+[2017.06.16-16.00.37:703][224]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-16.00.37:704][224]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-18.00.37
+[2017.06.16-16.00.37:705][224]LogWorld: Bringing up level for play took: 0.001073
+[2017.06.16-16.00.37:705][224]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-16.00.37:705][224]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.00.37:705][224]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.00.37:705][224]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.00.37:708][224]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.00.37:708][224]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 -0.754
+[2017.06.16-16.00.37:708][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.00.40:361][389]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.06.16-16.00.40:362][389]LogScript:Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Ekwipunek_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Ekwipunek_C_2
+	Function /Game/GównoEkwipunek/Ekwipunek.Ekwipunek_C:ExecuteUbergraph_Ekwipunek:0A0C
+[2017.06.16-16.00.41:679][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.00.41:714][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.01.15:015][468]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-16.01.15:034][468]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.01.15:034][468]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.16-16.01.15:034][468]LogPlayLevel: [PlayLevel] Compiling Ekwipunek before play...
+[2017.06.16-16.01.15:166][468]LogPlayLevel: PlayLevel: Blueprint regeneration took 131 ms (1 blueprints)
+[2017.06.16-16.01.15:166][468]PIE: New page: PIE session: LV1 (Jun 16, 2017, 8:01:15 PM)
+[2017.06.16-16.01.15:166][468]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-16.01.15:170][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004013s)
+[2017.06.16-16.01.15:170][468]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-16.01.15:171][468]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2017.06.16-16.01.15:171][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.004825s)
+[2017.06.16-16.01.15:197][468]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-16.01.15:205][468]LogInit: FAudioDevice initialized.
+[2017.06.16-16.01.15:233][468]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-16.01.15:234][468]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-18.01.15
+[2017.06.16-16.01.15:235][468]LogWorld: Bringing up level for play took: 0.001007
+[2017.06.16-16.01.15:235][468]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-16.01.15:235][468]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.01.15:235][468]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.01.15:235][468]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.01.15:237][468]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.01.15:237][468]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 0.776
+[2017.06.16-16.01.15:237][468]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.01.18:065][651]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.06.16-16.01.19:366][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.01.19:400][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.01.36:545][760]LogHttp:Warning: 0000024EA6C6C400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-16.01.36:545][760]LogHttp:Warning: 0000024EA6C6C400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-16.01.36:545][760]LogHttp:Warning: 0000024EA6C6C400: libcurl info message cache 1 (Closing connection 23)
+[2017.06.16-16.01.37:316][806]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-16.01.37:335][806]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.01.37:335][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-16.01.37:335][806]PIE: New page: PIE session: LV1 (Jun 16, 2017, 8:01:37 PM)
+[2017.06.16-16.01.37:335][806]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-16.01.37:340][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004400s)
+[2017.06.16-16.01.37:340][806]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-16.01.37:340][806]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2017.06.16-16.01.37:340][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005273s)
+[2017.06.16-16.01.37:367][806]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-16.01.37:374][806]LogInit: FAudioDevice initialized.
+[2017.06.16-16.01.37:402][806]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-16.01.37:404][806]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-18.01.37
+[2017.06.16-16.01.37:404][806]LogWorld: Bringing up level for play took: 0.001097
+[2017.06.16-16.01.37:405][806]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-16.01.37:405][806]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.01.37:405][806]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.01.37:405][806]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.01.37:407][806]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.01.37:407][806]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 0.946
+[2017.06.16-16.01.37:407][806]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.01.42:068][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.01.42:105][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.01.44:718][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.16-16.01.45:267][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.16-16.01.50:715][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.16-16.01.52:267][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.16-16.02.30:920][ 22]BlueprintLog: New page: Compile Ekwipunek
+[2017.06.16-16.02.31:052][ 22]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.16-16.02.31:937][ 83]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-16.02.31:956][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.02.31:956][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-16.02.31:956][ 83]PIE: New page: PIE session: LV1 (Jun 16, 2017, 8:02:31 PM)
+[2017.06.16-16.02.31:956][ 83]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-16.02.31:959][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003709s)
+[2017.06.16-16.02.31:960][ 83]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-16.02.31:960][ 83]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2017.06.16-16.02.31:960][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.004645s)
+[2017.06.16-16.02.31:987][ 83]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-16.02.31:995][ 83]LogInit: FAudioDevice initialized.
+[2017.06.16-16.02.32:029][ 83]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-16.02.32:031][ 83]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-18.02.32
+[2017.06.16-16.02.32:031][ 83]LogWorld: Bringing up level for play took: 0.001198
+[2017.06.16-16.02.32:032][ 83]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-16.02.32:032][ 83]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.02.32:032][ 83]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.02.32:032][ 83]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.02.32:034][ 83]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.02.32:034][ 83]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 -0.427
+[2017.06.16-16.02.32:034][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.02.35:703][309]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.06.16-16.02.37:345][408]LogHttp:Warning: 0000024EB39CC700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-16.02.37:345][408]LogHttp:Warning: 0000024EB39CC700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-16.02.37:345][408]LogHttp:Warning: 0000024EB39CC700: libcurl info message cache 1 (Closing connection 24)
+[2017.06.16-16.02.40:638][605]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.02.40:678][605]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.02.43:304][765]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-16.02.43:323][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.02.43:323][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-16.02.43:323][765]PIE: New page: PIE session: LV1 (Jun 16, 2017, 8:02:43 PM)
+[2017.06.16-16.02.43:323][765]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-16.02.43:327][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003578s)
+[2017.06.16-16.02.43:327][765]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-16.02.43:327][765]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2017.06.16-16.02.43:328][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.004412s)
+[2017.06.16-16.02.43:360][765]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-16.02.43:367][765]LogInit: FAudioDevice initialized.
+[2017.06.16-16.02.43:400][765]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-16.02.43:401][765]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-18.02.43
+[2017.06.16-16.02.43:402][765]LogWorld: Bringing up level for play took: 0.001072
+[2017.06.16-16.02.43:402][765]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-16.02.43:402][765]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.02.43:402][765]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.02.43:402][765]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.02.43:404][765]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.02.43:404][765]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 0.943
+[2017.06.16-16.02.43:404][765]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.02.52:254][302]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.06.16-16.02.54:538][439]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.02.54:582][439]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.02.56:154][536]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-16.02.56:173][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.02.56:173][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-16.02.56:173][536]PIE: New page: PIE session: LV1 (Jun 16, 2017, 8:02:56 PM)
+[2017.06.16-16.02.56:173][536]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-16.02.56:178][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004367s)
+[2017.06.16-16.02.56:178][536]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-16.02.56:178][536]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2017.06.16-16.02.56:179][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005342s)
+[2017.06.16-16.02.56:212][536]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-16.02.56:220][536]LogInit: FAudioDevice initialized.
+[2017.06.16-16.02.56:251][536]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-16.02.56:252][536]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-18.02.56
+[2017.06.16-16.02.56:253][536]LogWorld: Bringing up level for play took: 0.001022
+[2017.06.16-16.02.56:253][536]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-16.02.56:253][536]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.02.56:253][536]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.02.56:253][536]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.02.56:255][536]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.02.56:256][536]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 -0.206
+[2017.06.16-16.02.56:256][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.03.00:321][786]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.06.16-16.03.32:006][687]Cmd: SELECT NONE
+[2017.06.16-16.03.32:573][721]Cmd: SELECT NONE
+[2017.06.16-16.03.33:107][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.03.33:145][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.03.42:950][344]LogHttp:Warning: 0000024EB2C40280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-16.03.42:950][344]LogHttp:Warning: 0000024EB2C40280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-16.03.42:950][344]LogHttp:Warning: 0000024EB2C40280: libcurl info message cache 1 (Closing connection 25)
+[2017.06.16-16.03.49:378][725]LogRenderer: Reallocating scene render targets to support 1220x576 NumSamples 1 (Frame:38453).
+[2017.06.16-16.03.49:419][726]LogRenderer: Reallocating scene render targets to support 1244x576 NumSamples 1 (Frame:38455).
+[2017.06.16-16.03.49:467][727]LogRenderer: Reallocating scene render targets to support 1252x576 NumSamples 1 (Frame:38457).
+[2017.06.16-16.03.49:519][728]LogRenderer: Reallocating scene render targets to support 1264x576 NumSamples 1 (Frame:38459).
+[2017.06.16-16.03.49:583][729]LogRenderer: Reallocating scene render targets to support 1272x576 NumSamples 1 (Frame:38461).
+[2017.06.16-16.04.04:224][620]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-16.04.04:243][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.04.04:243][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-16.04.04:243][620]PIE: New page: PIE session: LV1 (Jun 16, 2017, 8:04:04 PM)
+[2017.06.16-16.04.04:243][620]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-16.04.04:248][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004461s)
+[2017.06.16-16.04.04:248][620]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-16.04.04:249][620]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.06.16-16.04.04:249][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.005274s)
+[2017.06.16-16.04.04:275][620]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-16.04.04:283][620]LogInit: FAudioDevice initialized.
+[2017.06.16-16.04.04:312][620]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-16.04.04:314][620]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-18.04.04
+[2017.06.16-16.04.04:314][620]LogWorld: Bringing up level for play took: 0.001221
+[2017.06.16-16.04.04:315][620]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-16.04.04:315][620]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.04.04:315][620]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.04.04:315][620]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.04.04:317][620]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.04.04:317][620]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 -0.145
+[2017.06.16-16.04.04:317][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.04.07:958][844]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.06.16-16.04.10:959][ 24]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.04.10:998][ 24]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.04.17:541][419]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.16-16.04.17:560][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.04.17:560][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.16-16.04.17:560][419]PIE: New page: PIE session: LV1 (Jun 16, 2017, 8:04:17 PM)
+[2017.06.16-16.04.17:560][419]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LV1
+[2017.06.16-16.04.17:564][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004021s)
+[2017.06.16-16.04.17:565][419]LogAIModule: Creating AISystem for world LV1
+[2017.06.16-16.04.17:565][419]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2017.06.16-16.04.17:565][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV1.LV1 to /Game/UEDPIE_0_LV1.LV1 (0.004737s)
+[2017.06.16-16.04.17:592][419]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.16-16.04.17:599][419]LogInit: FAudioDevice initialized.
+[2017.06.16-16.04.17:632][419]LogLoad: Game class is 'MyGamemode_C'
+[2017.06.16-16.04.17:634][419]LogWorld: Bringing World /Game/UEDPIE_0_LV1.LV1 up for play (max tick rate 0) at 2017.06.16-18.04.17
+[2017.06.16-16.04.17:634][419]LogWorld: Bringing up level for play took: 0.001001
+[2017.06.16-16.04.17:635][419]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.16-16.04.17:635][419]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.04.17:635][419]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.16-16.04.17:635][419]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.04.17:637][419]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.16-16.04.17:637][419]PIE: Info Play in editor start time for /Game/UEDPIE_0_LV1 -0.824
+[2017.06.16-16.04.17:637][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.04.25:408][891]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.06.16-16.04.34:476][435]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.06.16-16.04.35:093][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.04.35:131][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV1.LV1:PersistentLevel' has LevelScriptBlueprint '/Game/LV1.LV1:PersistentLevel.LV1' with GeneratedClass '/Game/LV1.LV1_C' with ClassGeneratedBy '/Game/LV1.LV1:PersistentLevel.LV1'
+[2017.06.16-16.04.42:947][943]LogHttp:Warning: 0000024E8CDF0400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.16-16.04.42:947][943]LogHttp:Warning: 0000024E8CDF0400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.16-16.04.42:947][943]LogHttp:Warning: 0000024E8CDF0400: libcurl info message cache 1 (Closing connection 26)
+[2017.06.16-16.05.52:348][107]LogUObjectBase:Warning: Object is not registered
+[2017.06.16-16.06.00:336][107]LogStats: FPlatformStackWalk::StackWalkAndDump -  7.987 s
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: 
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: Stack: 
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FKismetDebugUtilities::GetWatchText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetdebugutilities.cpp:1037]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node::GetPinHoverText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\blueprintgraph\private\k2node.cpp:1251]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphPin::GetTooltipText() [d:\build\++ue4+release-4.16+compile\sync\engine\source\editor\grapheditor\private\sgraphpin.cpp:1085]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64>::operator()<>() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64> >() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<1,SGraphPin,0,FText __cdecl(void)>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Slate.dll!TAttribute<FText>::Get() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\public\misc\attribute.h:137]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Slate.dll!SToolTip::IsEmpty() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\widgets\stooltip.cpp:87]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3444]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5697]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5647]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1742]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2127]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: USER32.dll!0x0000000003041C24
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: USER32.dll!0x000000000304156C
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3058]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.16+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: KERNEL32.DLL!0x0000000004FC8364
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: ntdll.dll!0x00000000053F70D1
+[2017.06.16-16.06.00:336][107]LogOutputDevice:Error: 
+[2017.06.16-16.06.00:346][107]LogStats:                SubmitErrorReport -  0.000 s
